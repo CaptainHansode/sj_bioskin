@@ -173,6 +173,6 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# My pterns
+# My ptterns
 __old*/
-__old
+__test*/
