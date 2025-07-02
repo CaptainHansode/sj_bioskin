@@ -830,6 +830,7 @@ class SJBioSkinLoad(bpy.types.Operator, ExportHelper):
 class SJBioSkinAssistPanel(bpy.types.Panel):
     r"""UI"""
     bl_label = "SJ Bio Skin Paint Assist"
+    bl_idname = "SJBIOSKINASSIST_PT_PANEL"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'  # UIのタイプ
     bl_context = "weightpaint"
